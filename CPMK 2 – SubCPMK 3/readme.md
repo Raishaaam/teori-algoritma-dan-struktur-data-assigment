@@ -1,5 +1,5 @@
 Teori Alpro
-# <h1 align="center">CPMK 3 - SubCPMK 3</h1>
+# <h1 align="center">CPMK 2 - SubCPMK 3</h1>
 <p align="center">2311110002 / Raisha  Amalia / Sains Data</p>
 
 ## Soal
