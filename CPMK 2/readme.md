@@ -42,7 +42,7 @@ Runtime:
 2. `worst case` untuk Merge Sort adalah `O(*n* log(*n*))`, array tidak dapat dibagi secara efisien dan pengurutan dilakukan secara rekursif.
 
 
-### 2. Buatlah fungsi dari salah satu algoritma sorting pada soal nomor 1, dan berikan penjelasan pada program tersebut (35 poin)
+### 2. Buatlah fungsi dari salah satu algoritma sorting pada soal nomor 1, dan berikan penjelasan pada program tersebut
 
 ```C++
 #include <iostream>

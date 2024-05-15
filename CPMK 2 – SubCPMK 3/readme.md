@@ -1,5 +1,5 @@
 Teori Alpro
-# <h1 align="center">CPMK 3 - SubCPMK 3</h1>
+# <h1 align="center">CPMK 2 - SubCPMK 3</h1>
 <p align="center">2311110002 / Raisha  Amalia / Sains Data</p>
 
 ## Soal
@@ -41,7 +41,7 @@ Runtime:
 2. `worst case` untuk Merge Sort adalah `O(*n* log(*n*))`, array tidak dapat dibagi secara efisien dan pengurutan dilakukan secara rekursif.
 
 
-### 2. Buatlah fungsi dari salah satu algoritma searching pada soal nomor 1, dan berikan penjelasan pada program tersebut (35 Poin)
+### 2. Buatlah fungsi dari salah satu algoritma searching pada soal nomor 1, dan berikan penjelasan pada program tersebut.
 
 ```C++
 #include <iostream>
@@ -73,4 +73,4 @@ int main() {
 }
 ````
 
-Program ini menggunakan Linear Search pada array. Terdapat fungsi `linear Search` yang menerima 3 parameter, yaitu array `arr`,ukuran array `n`, dan nilai yang ingin dicari yaitu `x`. Fungsi ini akan melakukan perulangan dari indeks ke 0 sampai `n-1` dan membandingkan setiap elemen pada array dengan nilai yang ingin dicari. Jika elemen tersebut sama dengan nilai yang ingin dicari, maka fungsi akan mengembalikan indeks dari elemen tersebut. Jika algoritma telah melakukan pencarian pada semua elemen pada array dan tidak menemukan nilai yang ingin dicari, maka fungsi akan mengembalikkan nilai -1. Di bagian `main`, akan memanggil fungsi linearSearch dan menampilkan hasil pencarian. Deklarasi array dan nilai yang ingin dicari dilakukan pada bagian ini. Hasil output program akan tergantung pada nilai yang ingin dicari. Misalnya, jika kita mencari nilai 10 pada array yang telah diberikan, maka hasil output akan menjadi `Nilai 10 ditemukan pada indeks ke-3`
+Program ini menggunakan Linear Search pada array. Terdapat fungsi `linear Search` yang menerima 3 parameter, yaitu array `arr`,ukuran array `n`, dan nilai yang ingin dicari yaitu `x`. Fungsi ini akan melakukan perulangan dari indeks ke 0 sampai `n-1` dan membandingkan setiap elemen pada array dengan nilai yang ingin dicari. Jika elemen tersebut sama dengan nilai yang ingin dicari, maka fungsi akan mengembalikan indeks dari elemen tersebut. Jika algoritma telah melakukan pencarian pada semua elemen pada array dan tidak menemukan nilai yang ingin dicari, maka fungsi akan mengembalikkan nilai -1. Di bagian `main`, akan memanggil fungsi linearSearch dan menampilkan hasil pencarian. Deklarasi array dan nilai yang ingin dicari dilakukan pada bagian ini. Hasil output program akan tergantung pada nilai yang ingin dicari. Misalnya, jika kita mencari nilai 10 pada array yang telah diberikan, maka hasil output akan menjadi `Nilai 10 ditemukan pada indeks ke-3`.
