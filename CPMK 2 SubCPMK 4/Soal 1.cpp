@@ -20,7 +20,7 @@ int main() {
   favorit.jenisBunga = "Wood Lily";
   favorit.warnaBunga = "Merah";
   favorit. stokBunga = 34;
-  favorit.asalBunga = "Turki";
+  favorit.asalBunga = "Amerika Utara";
 
   // Menampilkan informasi bunga favorit
   cout << "\tBunga Favorit Saya" << endl;
