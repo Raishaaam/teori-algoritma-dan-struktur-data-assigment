@@ -47,4 +47,7 @@ int main() {
   return 0;
 }
 ````
+### Output :
+![image](https://github.com/Raishaaam/teori-algoritma-dan-struktur-data-assigment/assets/161957283/7677ed29-4a84-43ff-a50e-4a3f097c351f)
+
 Program ini mendefinisikan struktur `bunga` dengan beberapa variabel untuk menyimpan informasi tentang bunga, yaitu `namaBunga`, `jenisBunga`, `warnaBunga`, `stokBunga`, dan `asalBunga`. Di dalam fungsi `main`, variabel `favorit` dideklarasikan sebagai tipe `bunga`dan diisi dengan beberapa informasi tentang bungan favorit. Kemudian, informasi tersebut ditampilkan menggunakan perintah `cout`. Hasil output dari program ini akan menampilkan informasi bunga favorit. Dalam output, dapat dilihat bahwa nama bunga favoritnya adalah Lily, jenis bunganya adalah Wood Lily, warna bunga adalah merah, jumlah stok bunga adalah 34 bunga, dan asal bunga Amerika Utara.
