@@ -83,6 +83,8 @@ int main() {
   return 0;
 }
 ````
+### Output :
+![Screenshot 2024-05-16 204512](https://github.com/Raishaaam/teori-algoritma-dan-struktur-data-assigment/assets/161957283/5f1ae67a-2c6b-438b-bdaa-a69d36a3b6de)
 
 Program ini merupakan implementasi algoritma pengurutan selection sort. Pada program ini terdiri dari dua fungsi, yaitu `selectionSort` yang melakukan pengurutan array menggunakan algoritma selection sort dan `printArray` yang mencetak isi array pada output. Dalam fungsi `main`, program membuat sebuah array dengan 7 elemen, mencetak isi array sebelum diurutkan, kemudian memanggil fungsi `selectinSort` untuk melakukan pengurutan, dan akhirnya mencetak isi array setelah diurutkan.
 
@@ -133,6 +135,10 @@ int main() {
     return 0;
 }
 ~~~
+
+### Output :
+![image](https://github.com/Raishaaam/teori-algoritma-dan-struktur-data-assigment/assets/161957283/9a6a6c44-049c-41e4-b213-e61b67a062bc)
+
 
 Program ini digunakan untuk mengecek apakah dua buah array of strings memiliki sebuah kemiripan karakter atau tidak. Program ini terdiri dari beberapa bagian, yaitu definisi fungsi `isAnagram` dan `checkAnagram`, serta bagian `main` yang digunakan sebagai peran utama untuk menjalankan program. 
 
