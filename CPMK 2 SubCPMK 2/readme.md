@@ -144,3 +144,62 @@ Program ini digunakan untuk mengecek apakah dua buah array of strings memiliki s
 
 Fungsi `isAnagram` digunakan untuk mengecek apakah dua buah string adalah anagram atau tidak. Anagram merupakan kata atau kalimat yang memiliki susunan karakter yang sama, tetapi bentuk dan artinya berbeda. Untuk mengecek kemiripan karakter, fungsi ini mengurutkan karakter-karakter pada kedua buah string menggunakan fungsi `sort` dari library `<algorithm>`. Setelah itu, fungsi akan membandingkan kedua string yang telah diurutkan. Jika kedua string sama, maka fungsi akan mengembalikan nilai true dan artinya kedua string adalah anagram. Jika tidak, maka akan dikembalikan nilai false. Lalu terdapat fungsi `checkAnagram` yang berfungsi untuk memeriksa apakah kedua buah array memiliki kemiripan karakter atau tidak. Fungsi ini akan membandingkan setiap elemen pada kedua buah array
 
+### 4.	Tulislah sebuah fungsi program dengan asumsi sebagai berikut: Terdapat dua buah sorted array A dan B yang memiliki tipe data sama, dimana array A memiliki indeks yang cukup untuk menampung array B. Gabungkan array B kedalam array A, kemudian urutkan array tersebut! 
+
+~~~C++
+#include <iostream>
+#include <vector>
+#include <algorithm>
+
+using namespace std;
+
+// Fungsi untuk menggabungkan dan mengurutkan dua array terurut
+vector<int> mergeAndSortArrays(const vector<int>& A, const vector<int>& B) {
+    vector<int> mergedArray;
+    set_union(A.begin(), A.end(), B.begin(), B.end(), back_inserter(mergedArray));
+    sort(mergedArray.begin(), mergedArray.end());
+    return mergedArray;
+}
+
+int main() {
+    // Array terurut A dengan ruang tambahan
+    vector<int> A = {1, 3, 5, 7, 9};
+
+    // Array terurut B
+    vector<int> B = {2, 4, 6, 8, 10};
+
+    // Menggabungkan dan mengurutkan array B ke array A
+    vector<int> mergedArray = mergeAndSortArrays(A, B);
+
+    // Menampilkan array A
+    cout << "Array A: ";
+    for (int num : A) {
+        cout << num << " ";
+    }
+    cout << endl;
+
+    // Menampilkan array B
+    cout << "Array B: ";
+    for (int num : B) {
+        cout << num << " ";
+    }
+    cout << endl;
+
+    // Menampilkan gabungan array tanpa duplikat
+    cout << "Gabungan Array (Tanpa Duplikat): ";
+    for (int num : mergedArray) {
+        cout << num << " ";
+    }
+    cout << endl;
+
+    return 0;
+}
+~~~
+
+### Output :
+![image](https://github.com/Raishaaam/teori-algoritma-dan-struktur-data-assigment/assets/161957283/df3b902f-ed3b-496e-b5fa-e7a730ef52d1)
+
+Program ini menggabungkan dan mengurutkan dua array yang terurut `A` dan `B` menjadi kedalam satu array terurut tanpa adanya duplikat menggunakan fungsi `mergeAndSortArrays`. Dalam fungsi ini menggunakan dua algoritma dari library `<algorithm>`, yaitu `set_union` dan `sort`. `Set_union` yang digunakan untuk menggabungkan dua array terurut menjadi satu array tanpa duplikat, sedangkan `sort` digunakan untuk mengurutkan array yang dihasilkan. Dalam fungsi `main`, dua array yang terurut `A` dan `B` mulai dibuat, kemudian array `B` digabungkan dan diurutkan menggunakan fungsi `mergeAndSort`. 
+
+Hasil dari output program menampilkan kedua array sebelum digabungkan dan array gabungan tanpa adanya duplikat yang dihasilkan oleh fungsi `mergeAndSortArrays`.
+
